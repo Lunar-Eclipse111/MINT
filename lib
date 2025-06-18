@@ -572,6 +572,7 @@ function lib:Make(e)
 			Pallete.Size = UDim2.new(0, 155, 0, 172);
 			Pallete.Visible = false;
 			Pallete.ZIndex = 5;
+MakeDraggable(Pallete, Pallete)
 
 			local Gradient = _New_("UIGradient", Pallete);
 			Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(180.00000447034836, 180.00000447034836, 180.00000447034836))};
