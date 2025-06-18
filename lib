@@ -1,7 +1,7 @@
 local lib = {tbCt = 0}
 local _New_ = Instance.new;
 
-local MINT = _New_("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+local MINT = _New_("ScreenGui", game.CoreGui);
 MINT.Name = "MINT";
 MINT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
 
